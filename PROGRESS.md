@@ -11,8 +11,8 @@
 | Phase | Description | Status | Commit / Notes |
 |---|---|---|---|
 | **Phase 0** | Setup, Environment & Dataset Inspection | **Completed** | Commit `7fa33b9` |
-| **Phase 1** | NumPy & Linear Regression from Scratch | **Next Up** | Foundations of gradient descent & normal equation |
-| **Phase 2** | Pandas, Data Cleaning & EDA | Pending | Reusable cleaning pipeline & outlier handling |
+| **Phase 1** | NumPy & Linear Regression from Scratch | **Completed** | Normal Equation, GD & Sklearn parity verified |
+| **Phase 2** | Pandas, Data Cleaning & EDA | **Next Up** | Robust parsing, cleaning pipeline & outlier detection |
 | **Phase 3** | Scikit-learn Baseline Models | Pending | Feature scaling, one-hot encoding, pipelines & CV |
 | **Phase 4** | Advanced Models & Optimization | Pending | Random Forest, Gradient Boosting, hyperparameter tuning |
 | **Phase 5** | Model Packaging & FastAPI Service | Pending | Production REST API with Pydantic validation |
