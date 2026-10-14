@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Personal teaching and study notes
+notes.md
+study_notes/
+quiz_answers.md
+tutorial_notes/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated data
+data/raw/*
+data/processed/*
+
+# Allow tracked placeholder files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated model artifacts
+models/*
+!models/.gitkeep
+
+# Local logs
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
