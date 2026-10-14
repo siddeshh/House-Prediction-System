@@ -10,7 +10,7 @@
 
 | Phase | Description | Status | Commit / Notes |
 |---|---|---|---|
-| **Phase 0** | Setup, Environment & Dataset Inspection | **Completed** | Initial setup & provenance audit |
+| **Phase 0** | Setup, Environment & Dataset Inspection | **Completed** | Commit `7fa33b9` |
 | **Phase 1** | NumPy & Linear Regression from Scratch | **Next Up** | Foundations of gradient descent & normal equation |
 | **Phase 2** | Pandas, Data Cleaning & EDA | Pending | Reusable cleaning pipeline & outlier handling |
 | **Phase 3** | Scikit-learn Baseline Models | Pending | Feature scaling, one-hot encoding, pipelines & CV |
