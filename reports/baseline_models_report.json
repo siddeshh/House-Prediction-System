@@ -1,0 +1,43 @@
+{
+  "dataset": "data/processed/pune_house_data_cleaned.csv",
+  "train_samples": 8712,
+  "test_samples": 2178,
+  "cross_validation_5fold": {
+    "Linear Regression": {
+      "CV_MAE": 34.4365,
+      "CV_RMSE": 398.708,
+      "CV_R2": -166.4387
+    },
+    "Ridge Regression (alpha=1.0)": {
+      "CV_MAE": 34.4238,
+      "CV_RMSE": 398.6094,
+      "CV_R2": -166.3521
+    },
+    "Lasso Regression (alpha=0.1)": {
+      "CV_MAE": 34.1277,
+      "CV_RMSE": 397.8539,
+      "CV_R2": -165.7238
+    }
+  },
+  "test_evaluation": {
+    "Linear Regression": {
+      "MAE": 26.3264,
+      "RMSE": 42.5353,
+      "R2": 0.4491,
+      "MedAE": 18.3933
+    },
+    "Ridge Regression (alpha=1.0)": {
+      "MAE": 26.3182,
+      "RMSE": 42.5291,
+      "R2": 0.4492,
+      "MedAE": 18.3808
+    },
+    "Lasso Regression (alpha=0.1)": {
+      "MAE": 26.046,
+      "RMSE": 42.4016,
+      "R2": 0.4525,
+      "MedAE": 18.037
+    }
+  },
+  "selected_baseline": "Lasso Regression (alpha=0.1)"
+}
