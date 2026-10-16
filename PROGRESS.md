@@ -13,9 +13,9 @@
 | **Phase 0** | Setup, Environment & Dataset Inspection | **Completed** | Commit `7fa33b9` (Pushed to GitHub) |
 | **Phase 1** | NumPy & Linear Regression from Scratch | **Completed** | Commit `a1763f9` (Pushed to GitHub) |
 | **Phase 2** | Pandas, Data Cleaning & EDA | **Completed** | Commit `2e17c6c` (Pushed to GitHub) |
-| **Phase 3** | Scikit-learn Baseline Models | **Completed** | Linear, Ridge, Lasso benchmarks & pipelines |
-| **Phase 4** | Advanced Models & Optimization | **Next Up** | Decision Trees, Random Forest, Gradient Boosting |
-| **Phase 5** | Model Packaging & FastAPI Service | Pending | Production REST API with Pydantic validation |
+| **Phase 3** | Scikit-learn Baseline Models | **Completed** | Commit `c866691` (Pushed to GitHub) |
+| **Phase 4** | Advanced Models & Optimization | **Completed** | Tuned Gradient Boosting (R²=0.7961, RMSE=25.88L) |
+| **Phase 5** | Model Packaging & FastAPI Service | **Next Up** | Production REST API with Pydantic validation |
 | **Phase 6** | Finalization & Portfolio Documentation | Pending | Professional README, benchmarks & interview prep |
 
 ---

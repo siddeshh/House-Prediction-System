@@ -27,3 +27,22 @@ def test_baseline_model_prediction_output():
     assert pred[0] > 0, f"Predicted price should be positive, got {pred[0]}"
     # Typical price for 1000 sqft in Aundh is between 30L and 150L
     assert 20.0 <= pred[0] <= 200.0, f"Predicted price {pred[0]} outside reasonable sanity range"
+
+def test_best_model_artifact_and_prediction():
+    model_path = os.path.join(os.path.dirname(__file__), "..", "models", "best_model.joblib")
+    assert os.path.exists(model_path), f"Best model artifact not found at {model_path}"
+    
+    pipeline = joblib.load(model_path)
+    sample_input = pd.DataFrame([{
+        'total_sqft': 1200.0,
+        'bhk': 2.0,
+        'bath': 2.0,
+        'balcony': 1.0,
+        'site_location': 'Kothrud',
+        'area_type': 'Super built-up  Area'
+    }])
+    
+    pred = pipeline.predict(sample_input)
+    assert len(pred) == 1
+    assert pred[0] > 0
+    assert 20.0 <= pred[0] <= 200.0, f"Predicted price {pred[0]} out of bounds"

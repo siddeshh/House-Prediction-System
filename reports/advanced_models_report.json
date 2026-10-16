@@ -1,0 +1,53 @@
+{
+  "models_evaluated": {
+    "Decision Tree": {
+      "MAE": 17.9016,
+      "RMSE": 29.6044,
+      "R2": 0.7331,
+      "MedAE": 11.8147
+    },
+    "Random Forest": {
+      "MAE": 16.8048,
+      "RMSE": 26.3437,
+      "R2": 0.7887,
+      "MedAE": 11.7576
+    },
+    "Gradient Boosting": {
+      "MAE": 17.061,
+      "RMSE": 26.4853,
+      "R2": 0.7864,
+      "MedAE": 11.7666
+    },
+    "Tuned Gradient Boosting": {
+      "MAE": 16.9591,
+      "RMSE": 25.8793,
+      "R2": 0.7961,
+      "MedAE": 11.6894
+    }
+  },
+  "best_model_name": "Tuned Gradient Boosting",
+  "price_tier_performance": {
+    "Budget (<50L)": {
+      "Count": 668,
+      "Mean_Actual": 40.1,
+      "MAE": 10.37,
+      "MedAE": 8.98
+    },
+    "Mid-Range (50L-150L)": {
+      "Count": 1322,
+      "Mean_Actual": 82.17,
+      "MAE": 16.07,
+      "MedAE": 12.14
+    },
+    "Luxury (>150L)": {
+      "Count": 188,
+      "Mean_Actual": 228.31,
+      "MAE": 46.64,
+      "MedAE": 37.96
+    }
+  },
+  "plots_saved": [
+    "reports/figures\\06_actual_vs_predicted.png",
+    "reports/figures\\07_residual_distribution.png"
+  ]
+}
