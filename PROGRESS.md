@@ -15,8 +15,8 @@
 | **Phase 2** | Pandas, Data Cleaning & EDA | **Completed** | Commit `2e17c6c` (Pushed to GitHub) |
 | **Phase 3** | Scikit-learn Baseline Models | **Completed** | Commit `c866691` (Pushed to GitHub) |
 | **Phase 4** | Advanced Models & Optimization | **Completed** | Commit `7c1df0f` (Pushed to GitHub) |
-| **Phase 5** | Model Packaging & FastAPI Service | **Completed** | FastAPI REST service, Pydantic & 22 passing tests |
-| **Phase 6** | Finalization & Portfolio Documentation | **Next Up** | Professional README, benchmarks & interview prep |
+| **Phase 5** | Model Packaging & FastAPI Service | **Completed** | Commit `744e064` (Pushed to GitHub) |
+| **Phase 6** | Finalization & Portfolio Documentation | **Completed** | Full README, 22 tests passing, interview guide |
 
 ---
 
